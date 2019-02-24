@@ -11,3 +11,5 @@ function createAnimal(name: string, size: number): Animal {
 }
 
 animal = createAnimal('Canine', 500);
+
+//teste
