@@ -1,6 +1,7 @@
+import { ConcesionariaInterface } from './ConcessionariaInterface';
 import Carro from './Carro';
 
-export class Concesionaria {
+export class Concesionaria implements ConcesionariaInterface {
     private endereco: string = '';
     private listaDeCarros: Carro[];
 
@@ -15,6 +16,10 @@ export class Concesionaria {
 
     public mostrarListaDeCarros(): Carro[] {
         return this.listaDeCarros;
+    }
+
+    public fornecerHorariosFuncionamento(): string {
+        return 'De segunda a sexta das 08:00 às 18:00';
     }
 }
 

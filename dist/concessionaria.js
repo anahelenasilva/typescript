@@ -12,6 +12,9 @@ var Concesionaria = /** @class */ (function () {
     Concesionaria.prototype.mostrarListaDeCarros = function () {
         return this.listaDeCarros;
     };
+    Concesionaria.prototype.fornecerHorariosFuncionamento = function () {
+        return 'De segunda a sexta das 08:00 às 18:00';
+    };
     return Concesionaria;
 }());
 exports.Concesionaria = Concesionaria;
