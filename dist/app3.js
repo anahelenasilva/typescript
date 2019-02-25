@@ -8,5 +8,8 @@ var Moto_1 = __importDefault(require("./Moto"));
 var carro = new Carro_1.default('Gol', 4);
 var moto = new Moto_1.default();
 moto.acelerar();
+moto.acelerar();
+moto.acelerar();
+moto.acelerar();
 console.log(carro);
 console.log(moto);
